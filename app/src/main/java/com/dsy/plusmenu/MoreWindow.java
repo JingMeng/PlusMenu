@@ -216,18 +216,6 @@ public class MoreWindow extends PopupWindow implements OnClickListener {
             closeAnimation();
         }
 
-        switch (v.getId()) {
-            case R.id.tv_sbs:
-                break;
-            case R.id.tv_search:
-                break;
-            case R.id.tv_course:
-                break;
-            case R.id.tv_task:
-
-                break;
-        }
-
     }
 
     float fromDpToPx(float dp) {

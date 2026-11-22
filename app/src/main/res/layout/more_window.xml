@@ -6,7 +6,7 @@
 
 
     <com.ms_square.etsyblur.BlurringView
-        android:id="@id/blurring_view"
+        android:id="@+id/blurring_view"
         android:layout_width="match_parent"
         app:radius="17"
         app:overlayColor="#66eeeeee"

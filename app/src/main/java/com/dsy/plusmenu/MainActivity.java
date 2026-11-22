@@ -2,7 +2,7 @@ package com.dsy.plusmenu;
 
 import android.graphics.Color;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //状态栏透明
+        //鐘舵€佹爮閫忔槑
         getWindow().getDecorView().setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN|
                         View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
@@ -47,3 +47,4 @@ public class MainActivity extends AppCompatActivity {
         mMoreWindow.showMoreWindow(idContainer );
     }
 }
+
